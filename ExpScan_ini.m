@@ -14,16 +14,16 @@ BIN_X=2;
 %% FILES
 PathServer='D:\Beta\';
 if BIN_X==2
-    PathDataIn='Data\ScanHead\for_polimi_dat_1x\'; % use 'Data\ScanHead\for_polimi_dat_1x\' for 1x, 'Data\ScanHead\for_polimi_dat\' for 4x
+    PathDataIn='Data\ScanHead\DataECBO\for_polimi_dat_1x\'; % use 'Data\ScanHead\for_polimi_dat_1x\' for 1x, 'Data\ScanHead\for_polimi_dat\' for 4x
 else
-    PathDataIn='Data\ScanHead\for_polimi_dat\'; % use 'Data\ScanHead\for_polimi_dat_1x\' for 1x, 'Data\ScanHead\for_polimi_dat\' for 4x
+    PathDataIn='Data\ScanHead\DataECBO\for_polimi_dat\'; % use 'Data\ScanHead\for_polimi_dat_1x\' for 1x, 'Data\ScanHead\for_polimi_dat\' for 4x
 end    
 PathDataOut='Simulations\Solus\data\201612\';
 FileNameIn='S04_2_DTOFarray_6D_single_binxy_nobs_blocksum.mat';
 if BIN_X==2
-    FileNameOut='EXP_DATA_EXP_2x.mat';
+    FileNameOut='EXP_DATA_EXP_2x_new.mat';
 else
-    FileNameOut='EXP_DATA_EXP_4x.mat';
+    FileNameOut='EXP_DATA_EXP_4x_new.mat';
 end   
 FileNamePeak2='peak_001_2_1.sdt';
 
